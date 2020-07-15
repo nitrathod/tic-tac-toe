@@ -1,0 +1,35 @@
+//container and row variables
+$height: 100vh
+
+//grid variables
+$display: grid
+$gap: 15px
+$template-columns: 1fr 1fr 1fr 
+
+//box variables
+$width: auto
+$box-height: 150px
+$box-display: flex
+$box-justify-content: center
+$box-align-items: center
+
+.container,
+.row 
+  height: $height
+
+.grid 
+  display: grid
+  grid-template-columns: $template-columns
+  grid-gap: $gap
+
+
+.box 
+  width: $width
+  height: $box-height
+  display: $box-display
+  justify-content: $box-justify-content
+  align-items: $box-align-items
+
+
+h1 
+  color: aliceblue
